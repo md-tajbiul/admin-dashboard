@@ -1,0 +1,38 @@
+.card {
+    box-shadow: none;
+    margin: 5px 12px;
+    border-radius: 24px;
+    height: 136px;
+    width: 396px;
+    display: flex;
+    align-items: center;
+}
+.cardBox {
+    display: flex;
+    align-items: center;
+}
+.cardIcon {
+    height: 71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    border-radius: 18px;
+}
+.cardText {
+    margin-left: 15px;
+}
+.cardText p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #43454D;
+    margin: 5px 0;
+    font-weight: 400;
+}
+.cardText span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
