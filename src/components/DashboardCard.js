@@ -1,6 +1,6 @@
+import styles from '../../styles/dashboardCard.module.css';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import styles from '../../styles/dashboardCard.module.css'
 
 const CustomCard = ({icon, title, amount, color, iconBg}) => {
     return (
